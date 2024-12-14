@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Villa Carlina Resort</title>
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Google Fonts Links For Icon -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0">
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+          <div class="villacarlina">
+            <img src="images/resort-logo/logo.jpg">
+          </div>
+              <ul class="menu-links">
+                <span id="close-menu-btn" class="material-symbols-outlined">close</span>
+
+                  <li><a href="index.html">Home</a></li>
+                  <li><a href="room_reservation.html">Room Reservation</a></li>
+                  <li><a href="Restaurant_Menu.html">Restaurant Menu</a></li>
+                  <div class="dropdown">
+                    <button class="dropbtn">Gallery</button>
+                    <div class="dropdown-content">
+                      <a href="Resort.html">Resort</a>
+                      <a href="beach.html">Beach</a>
+                    </div>
+                  </div>
+                  <li><a href="about_us.html">About Us</a></li>
+                  <li><a href="Contact_Us.html">Contact Us</a></li>
+              </ul>
+            
+            
+
+        <span id="hamburger-btn" class="material-symbols-outlined">menu</span>
+      </nav>
+    </header>
+
+
+    <section class="RoomInfo" id="RoomInfo">
+      <h2 class="section_title">Room Reservation</h2>
+      <div class="section_container">
+        <div class="RoomInfo_container">
+          <div class="RoomInfo_form">
+            <form action="#">
+              <div class="field">
+                <label for="Name">Full Name</label>
+                <input type="text" id="Name" placeholder="Your Name" required />
+              </div>
+              <div class="field">
+                <label for="Name">Address</label>
+                <input type="text" id="Name" placeholder="Your Address" required />
+              </div>
+              <div class="field">
+                <label for="email">Your Email</label>
+                <input
+                  type="text"
+                  id="email"
+                  placeholder="Your Email"
+                  required
+                />
+              </div>
+              <div class="field">
+                <label for="number">Contact Number</label>
+                <input
+                  type="number"
+                  id="number"
+                  placeholder="Your Contact Number"
+                  required
+                />
+              </div>
+              <div class="field">
+                <label for="date">Check In</label>
+                <input
+                  type="date"
+                  id="date"
+                />
+              </div>
+              <div class="field">
+                <label for="date">Check Out</label>
+                <input
+                  type="date"
+                  id="date"
+                />
+              </div>
+              <div class="field">
+                <label for="textarea">Do you have any special request?</label>
+                <textarea
+                  name="textarea"
+                  id="textarea"
+                  placeholder="Your Request"
+                ></textarea>
+              </div>
+              <div class="RoomInfo_Amenities">
+                <div class="RoomInfo_row">
+                  <div class="RoomImage">
+                    <img src="images/Rooms-Image/sunflower.jpg" alt="room10" width="300" height="200">
+                  </div>
+                  <div class="RoomDetails">
+                    <h1 class="RoomPayment_title">Room Sunflower (12 Pax)</h1>
+                    <ul class="RoomListAmenities">
+                      <li>Fully Air-Conditioned</li>
+                      <li>Cable TV</li>
+                      <li>Individual toilet and bath, 1 common C.R</li>
+                      <li>Restaurant</li>
+                    </ul>
+                    <h1 class="Prices_Title">Price</h1>
+                    <ul class="Price">
+                      <li>PHP 7,500.00 (Peak Season)</li>
+                      <li>PHP 6,500.00 (Off Peak)</li>
+                    </ul>
+                    <button class="button" id="submit">Pay Now</button>
+                  </div>
+                </div>
+              </div>
+            </form>
+          </div>
+
+
+          <div class="RoomInfo_text">
+            <div class="RoomInfo_items">
+              <!-- <i class="bx bx-current-location"></i> -->
+              <a href="https://www.facebook.com/VillaCarlinaResort16"target="_blank"><img src="images/contactus-icons/icons8-facebook.svg"></a>
+              <div class="RoomInfo_details">
+                <h3>Resort Name</h3>
+                <p>Villa Calina Resort</p>
+              </div>
+            </div>
+            <div class="RoomInfo_items">
+              <!-- <i class="bx bxs-envelope"></i> -->
+            <a href="https://www.google.com/maps/place/Villa+Carlina+Resort/@18.591263,120.786822,15z/data=!4m2!3m1!1s0x0:0xf26a0894538be96d?sa=X&ved=1t:2428&ictx=111"target="_blank"><img src="images/contactus-icons/location-svgrepo-com.svg"></a>
+              <div class="contact_details">
+                <h3>Address</h3>
+                <p>Barangay Saud, Pagudpud, Ilocos Norte</p>
+              </div>
+            </div>
+            <div class="RoomInfo_items">
+              <img src="images/contactus-icons/contact-book-svgrepo-com.svg">
+              <div class="contact_details">
+                <h3>Call Us for Reservation</h3>
+                <p>09666715263</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+      
+      <div class= "carlina-resort">
+          <img src="images/homepage-background/background-beach.jpg">
+      </div>
+
+
+
+
+
+<footer>
+  <p><span><a href="https://www.facebook.com/VillaCarlinaResort16" target="_blank">Villa Carlina Resort</a></span> | &copy; 2024 All Rights Reserved (Ephraim B. Espiritu)</p>
+</footer>
+
+
+  <script src="js/hamburgerBth.js"></script>
+  <script src="js/slides-scripts.js"></script>
+    
+  </body>
+</html>
